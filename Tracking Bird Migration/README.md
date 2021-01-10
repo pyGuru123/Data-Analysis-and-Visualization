@@ -25,8 +25,8 @@ The case study is divied into six parts:
 
 ## Dataset 
 
-[official_datasets](https://inbo.carto.com/u/lifewatch/datasets)
-[used dataset – csv](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/c72498a54a4513c2eb4ec005adc0010c/asset-v1:HarvardX+PH526x+3T2016+type@asset+block/bird_tracking.csv)
+Official datasets : [datasets](https://inbo.carto.com/u/lifewatch/datasets) \
+Used Dataset : [csv](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/c72498a54a4513c2eb4ec005adc0010c/asset-v1:HarvardX+PH526x+3T2016+type@asset+block/bird_tracking.csv)
 
 ## Requirements
 
@@ -47,7 +47,8 @@ To install cartopy using pip, follow this tutorial
 
 [install cartopy on win10](https://youtu.be/PGNzs1I6tf0)
 
-To make most out of this project : run it in google colab.
+
+To make most out of this project run it in google colab
 
 ## How to Download
 
