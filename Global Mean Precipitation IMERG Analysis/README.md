@@ -58,6 +58,6 @@ To make most out of this project run it in google colab
 
 ## How to Download
 
-Download this project from here [Download GPM IMERG ANALYSIS](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Data-Analysis-and-Visualization/tree/main/Tracking%20Bird%20Migration)
+Download this project from here [Download GPM IMERG ANALYSIS](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Data-Analysis-and-Visualization/tree/main/Global%20Mean%20Precipitation%20IMERG%20Analysis)
 
 ![Alt text](GPM_3IMERGP_INDIA.png?raw=true "GPM IMERG INDIA")
