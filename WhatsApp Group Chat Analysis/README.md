@@ -51,3 +51,29 @@ To make most out of this project run it in google colab
 ## How to Download
 
 Download this project from here [Download WhatsApp Group Chat Analysis](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Data-Analysis-and-Visualization/tree/main/WhatsApp%20Group%20Chat%20Analysis)
+
+## Some interesting results
+
+![Alt text](plots/busiest_hours.png?raw=true "Busiest Hours")
+
+### Busiest Hours
+
+![Alt text](plots/calendarmap.png?raw=true "CalendarMap")
+
+### Calendar Map
+
+![Alt text](plots/Message_sent_each_weekday.png?raw=true "Message sent each weekday")
+
+### Message sent each weekday
+
+![Alt text](plots/most_common_words.png?raw=true "Most Common Words used")
+
+### Most Common Words used
+
+![Alt text](plots/most_frequent_wordcloud.png?raw=true "Most frequent wordcloud")
+
+### Most frequent wordcloud
+
+![Alt text](plots/most_popular_hours.png?raw=true "Most popular hours")
+
+### Most popular hours
