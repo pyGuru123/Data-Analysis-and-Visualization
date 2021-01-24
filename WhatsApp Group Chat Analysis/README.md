@@ -4,52 +4,50 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-One fascinating area of research uses GPS to track movements of animals. It is now possible to manufacture a small GPS device that is solar charged, so you don’t need to change batteries and use it to track flight patterns of birds.
-
-The data for this case study comes from the LifeWatch INBO project. Since 1999, the Research Institute for Nature and Forest (INBO) studies the postnuptial migration, and mate and site fidelity of large gulls, using observer sightings of colour-ringed individuals. In the framework of the Flemish contributions to the LifeWatch infrastructure, a high-tech sensor network was installed (start June 2013) to better monitor the habitat use and migration patterns of large birds, such as the European Herring Gull (Larus argentatus Pontoppidan). Several data sets have been released as part of this project. We will use a small data set that consists of migration data for three gulls named Eric, Nico, and Sanne
+This notebook analyses a exported .txt chat file of science & technology based whatsapp group. To analyse your own chat .txt file, On your phone, go to the WhatsApp group and click the 3 dots in the top right. Then go to ‘More’ and to ‘Export chat’. Select omit media. You can then select where to save this.
 
 ## Aim & Observations
 
-Track the movement of three gulls namely – Eric, Nico & Sanne
+To Analyse group chats of a whatsapp group
 
-The case study is divied into six parts:
+The case study is divied into 10 parts:
 
-1. Visualizing longitude and latitude data of the gulls.
-2. Visualize the variation of the speed of the gulls.
-3. Visualize the time required by the gulls to cover equal distances over the journey.
-4. Visualize the daily mean speed of the gulls.
-5. Visualize the daily average altitude gulls fly at.
-6. Cartographic view of the journey of the gulls.
+1. Preprocessing chat text file : hiding phone numbers, converting multiline messages to single line.
+2. Converting text file to Date, time - sender : message format.
+3. Reading the text file as Pandas Dataframe, removing unwanted messages.
+4. Extracting date, time, sender & message as seperate columns.
+5. Extracting chat data info / group Insight
+6. Visualize number of message by each member.
+7. Visualize number of messages sent each day.
+8. Visualize Most common messaging time.
+9. Visualize Most common words
+10. Visualize Most common used emojis
 
 ![Alt text](visualization.png?raw=true "Tracking Bird Migration")
 
 ## Dataset 
 
-Official datasets : [datasets](https://inbo.carto.com/u/lifewatch/datasets) \
-Used Dataset : [csv](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/c72498a54a4513c2eb4ec005adc0010c/asset-v1:HarvardX+PH526x+3T2016+type@asset+block/bird_tracking.csv)
+Used Dataset : Chat file exported from a Science & Technology based Whatsapp group.
+
+To analyse your own chat .txt file, On your phone, go to the WhatsApp group and click the 3 dots in the top right. Then got to ‘More’ and to ‘Export chat’. Select omit media. You can then select where to save this.
 
 ## Requirements
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install following packages :-
-* Requests
-* Numpy
+* Calplot
+* WordCloud
 * Matplotlib
 * Pandas
 
 ```bash
-pip install Requests
-pip install Numpy
+pip install Calplot
+pip install WordCloud
 pip install Matplotlib
 pip install Pandas
 ```
-
-To install cartopy using pip, follow this tutorial
-
-[install cartopy on win10](https://youtu.be/PGNzs1I6tf0)
-
 
 To make most out of this project run it in google colab
 
 ## How to Download
 
-Download this project from here [Download Tracking Bird Migration](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Data-Analysis-and-Visualization/tree/main/Tracking%20Bird%20Migration)
+Download this project from here [Download WhatsApp Group Chat Analysis](https://downgit.github.io/#/home?url=https://github.com/pyGuru123/Data-Analysis-and-Visualization/tree/main/WhatsApp%20Group%20Chat%20Analysis)
